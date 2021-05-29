@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		.f{
+			position: absolute;
+			height: 80%;
+			width: 100%;
+			background: linear-gradient(to bottom, #085703, #20ad17, #62db5a, #20ad17, #085703)
+		}
+		.t1{
+			font-family: sans-serif, tahoma;
+			font-size: 30px;
+			color: white;
+			margin-top: 7%;
+			margin-left: 7%;
+		}
+		.ul{
+			list-style: none;
+			font-family: sans-serif, tahoma;
+			color: white;
+			margin-left: 8%;
+			margin-top: 1%;
+		}
+		.ul .li{
+			padding: 4px 0px;
+		}
+		.c1{
+			font-family: sans-serif, tahoma;
+			font-size: 17px;
+			color: white;
+			margin-left: 7%;
+			margin-top: 5%;
+		}
+		.c2{
+			font-family: sans-serif, tahoma;
+			font-size: 17px;
+			color: white;
+			margin-left: 7%;
+		}
+		.c3{
+			font-family: sans-serif, tahoma;
+			font-size: 17px;
+			color: white;
+			margin-left: 7%;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		.i1{
+			position: absolute;
+			margin-top: 10%;
+			margin-left: 60%;
+		}
+		.b1{
+			position: absolute;
+			height: 300px;
+			width: 300px;
+			border: 0px solid black;
+			margin-top: 50%;
+			margin-left: 20%;
+			transition: .5s;
+		}
+		.b1:hover{
+			background: #e1e3e6;
+			border-radius: 8px;
+		}
+		.b2{
+			position: absolute;
+			height: 300px;
+			width: 300px;
+			border: 0px solid black;
+			margin-top: 50%;
+			margin-left: 40%;
+			transition: .5s
+		}
+		.b2:hover{
+			background: #e1e3e6;
+			border-radius: 8px;
+		}
+		.b3{
+			position: absolute;
+			height: 300px;
+			width: 300px;
+			border: 0px solid black;
+			margin-top: 50%;
+			margin-left: 60%;
+			transition: .5s
+		}
+		.b3:hover{
+			background: #e1e3e6;
+			border-radius: 8px;
+		}
+		.ti1{
+			text-align: center;
+			font-family: sans-serif, tahoma;
+			font-size: 20px;
+		}
+		.ti2{
+			text-align: center;
+			font-family: sans-serif, tahoma;
+			font-size: 20px;
+		}
+		.ti3{
+			text-align: center;
+			font-family: sans-serif, tahoma;
+			font-size: 20px;
+		}
+		.ul2{
+			font-family: sans-serif, tahoma;
+			font-size: 15px;
+			margin-left: 20px;
+			margin-top: 10%;
+		}
+		.mt{
+			margin-left: 5%;
+			font-family: sans-serif, tahoma;
+			font-size: 40px;
+			margin-top: 5%;
+		}
+		.bb{
+			position: absolute;
+			height: 210%;
+			width: 100%;
+			margin-top: 70%;
+			border: 0px solid black;
+		}
+		.ul3{
+			font-family: sans-serif, tahoma;
+			font-size: 17px;
+			margin-top: 2%;
+			margin-left: 7%;
+			list-style: none;
+		}
+		.li3{
+			padding: 3px 3%;
+			border-left: 5px solid green;
+		}
+		.sb{
+			position: absolute;
+			height: 60%;
+			width: 100%;
+			border: 0px solid black;
+			margin-top: 190%;
+		}
+		.k{
+			margin-left: 5%;
+			font-family: sans-serif, tahoma;
+			font-size: 40px;
+			margin-top: 20%;
+			background: lightgreen;
+			width: 350px;
+			padding-left: 40px;
+			border-radius: 30px;
+			color: green;
+		}
+		.k1{
+			font-family: sans-serif, tahoma;
+			font-size: 40px;
+			margin-top: 5%;
+			background: lightgreen;
+			width: 350px;
+			padding-left: 40px;
+			border-radius: 30px;
+			color: green;
+		}
+		.ul4{
+			list-style: none;
+			font-family: sans-serif, tahoma;
+			font-size: 17px;
+			margin-left: 7%;
+			margin-top: 2%;
+		}
+		.ul4 li{
+			padding: 10px 0px;
+		}
+		.footer{
+			position: absolute;
+			height: 120px;
+			width: 100%;
+			background: black;
+			margin-top: 280%;
+		}
+		.kindly{
+			text-align: center;
+			line-height: 70px;
+			font-family: sans-serif, tahoma;
+			font-size: 20px;
+			letter-spacing: 5px;
+			color: white; 
+		}
+		.fb{
+			font-family: sans-serif, tahoma;
+			font-size: 15px;
+			color: white;
+			text-align: center;
+			letter-spacing: 2px;
+		}
+	</style>
+</head>
+<body>
+<div class="f">
+	<img src="pic.png" class="i1" height="300px" width="500px">
+	<p class="t1">Alingatong Herbal Roots / Tea</p>
+	<ul class="ul">
+		<li class="li">If Your Colon Is Not Clean, You Will Never Get Well. A Sick Colon Creates a Sick Body.</li>
+		<li class="li">DRINK ALINGATONG JUICE / TEA EVERY DAY!
+</li>
+		<li class="li">It is rich in INSOLUBLE FIBERS that flush out harmful toxins and carcinogens present in the </li>
+		<li class="li">intestine, and thus promoting a healthy digestive tract.</li>
+		<li class="li">The presence of SUPEROXIDE DISMUTASE (SOD) aids in the digestion of food</li>
+		<li class="li">PREVENTING CONSTIPATION THAT MAY CAUSE BUILD UP OF WASTE PRODUCTS IN THE COLON.</li>
+		<li class="li">THUS, TAKING ALINGATONG / LIPA JUICE OR TEA EVERYDAY DO NOT JUST DETOXIFY THE</li>
+		<li class="li">COLON, ALSO PURIFY YOUR BLOOD, LIVER, KIDNEY'S !</li>
+	</ul>
+    <a href="https://web.facebook.com/razonmaryrose814"><p class="c1">Facebook: Maryrose Razon</p></a>
+    <a href="https://web.facebook.com/Alingatong-Herbal-RootsTea-108361400937482"><p class="c2">Facebook Page: Alingatong Herbal Roots / Tea</p></a>
+    <p class="c3">Contact Number: 0916-554-9427</p>
+</div>
+<div class="b1">
+	<p class="ti1">Fresh Alingatong</p>
+	<ul class="ul2">
+    	<li class="li2" style="list-style: none;">Benefits:</li>
+    	<li class="li2">ang red alingatong ay mas mataas ang medicinal properties</li>
+    	<li class="li2">ang red alingatong ay mas concentrated kesa sa puti, sa madaling salita mas mabisa ang pula sa puti.</li>
+    	<li class="li2">Pero parehas naman sila nakakagamot ngunit kung gusto nyo ng mas mabisa</li>
+    	<li class="li2">at mas mabilis ang epekto dito kayo sa RED ALINGATONG HERBAL ROOTS.</li>
+    	<li class="li2">Color: Reddish</li>
+    </ul>
+</div>
+<div class="b2">
+	<p class="ti2">Dried Alingatong</p>
+	<ul class="ul2">
+    	<li class="li2" style="list-style: none;">Benefits:</li>
+    	<li class="li2">May Reduce Inflammation.</li>
+    	<li class="li2">May Treat Enlarged Prostate Symptoms</li>
+    	<li class="li2">May Treat Hay Fever</li>
+    	<li class="li2">May Lower Blood Pressure</li>
+    	<li class="li2">May Aid Blood Sugar Control</li>
+    	<li class="li2">Eczema</li>
+    	<li class="li2">Color: White</li>
+    </ul>
+</div>
+<div class="b3">
+	<p class="ti3">Tea</p>
+	<ul class="ul2">
+    	<li class="li2" style="list-style: none;">Benefits:</li>
+    	<li class="li2">Nettle has historically been used to treat pain and sore muscles especially related to arthritis.</li>
+    	<li class="li2">The Arthritis Foundation suggests that nettle tea may also reduce the inflammation and pain association with osteoarthritis.</li>
+    	<li class="li2">Placed at Tea Bag</li>
+    </ul>
+</div>
+<div class="bb">
+	<p class="mt">Ano ngaba ang Alingatong?</p>
+	<ul class="ul3">
+		<li class="li3">Ito po ay isang punong kahoy na makikita na lamang sa gubat. Ang kanyang mga dahon ay</li>
+		<li class="li3">subrang makati. Babala wag inumin oh kainin ang dahon. Ngunit dahil sa ugat nito ay </li>
+		<li class="li3">nakakapagaling ng may sakit sa kidney(kidney stones,mataas na creatinine at hindi na </li>
+		<li class="li3">gumaganang kidney) liver (fatty liver, paglinis ng liver) prostate(nagmamagang prostate,baradong </li>
+		<li class="li3">prostate) colon(blockage sa colon oh hindi na normal na pagtatae) uti at paglinis ng buong </li>
+		<li class="li3">katawan (pinalalabas kung ano ang sobra sa katawan lalo na ang mga toxins oh hilo sa katawan </li>
+		<li class="li3">na nagdadala ng sakit sa katawan) diabetes(dahil nilalabas kung ano ang subra sa katawan </li>
+		<li class="li3">kasama na ang subrang sugar po sa nilalabas po, pwede rin pang hugas sa mga sugat para </li>
+		<li class="li3">madali lamang gumaling ito.)</li>
+    </ul>
+    <p class="mt">Ano ang lasa?</p>
+	<ul class="ul3">
+		<li class="li3">Walang lasa ang pinaglagaan na alingatung. Amoy mais na nilaga lamang.</li>
+    </ul>
+    <p class="mt">Pwede po ba syang gawing mainit na tubig sa kape or gatas?</p>
+	<ul class="ul3">
+		<li class="li3">Dahil po sa walang lasa pwede po sya gawing tubig sa kape at gatas.</li>
+    </ul>
+    <p class="mt">Kailan po ba mararamdaman na nagkabisa na ang ugat?</p>
+	<ul class="ul3">
+		<li class="li3">Depende po sa katawan ng tao kung kailan tatalab ang masasabi ko lamang ay paminsan 5</li>
+		<li class="li3">minuto oh hangang isang lingo bago malaman nagkabisa na sa katawan mo. Malalamang bumibisa na ang alingatong sa katawan ng tao o sa may malalang karamdaman kapag nakaramdam na sila ng healing crisis.</li>
+    </ul>
+    <p class="mt">Ano nga ba ang Healing Crisis?</p>
+	<ul class="ul3">
+		<li class="li3">Ang healing crisis mararamdaman lamang ito ng uminiinom ng alingaton</li>
+		<li class="li3">ang mga sintomas na mararamdaman ng nainom ay:</li>
+		<li class="li3">Pananakit ng balakang</li>
+		<li class="li3">Ubo</li>
+		<li class="li3">Sipon</li>
+		<li class="li3">Soar Throat</li>
+		<li class="li3">Pananakit ng batok</li>
+		<li class="li3">Pananakit ng Katawan at iba pa...</li>
+		<li class="li3">Ngunit ang mga sintomas na ito ay panandalian lamang sapagkat</li>
+		<li class="li3">nililinis nito ang dumi natin sa katawan kung kaya/t nakakaramdam ng mga sintomas na ito</li>
+    </ul>
+    <p class="mt">Ano po ba ang nararamdaman ng mga tao nakainom na ng alingatung?</p>
+	<ul class="ul3">
+		<li class="li3">Mas malakas na pagihi. Gigisingin ka ng disoras ng gabi para ilabas ang ihi mo.(paki pansin na </li>
+		<li class="li3">lamang kung ano po ang kulay ng ihi po sa mga unang araw ng paginom nyo po)para sa mga </li>
+		<li class="li3">may kidney stone wag magtaka na merong mga latak oh maliliit na asin sa inyong ihi dahil yan po</li>
+		<li class="li3">ang inyong mga kidney stone na natunaw ng ugat. Kung ikaw ay nagtatae 1 oh 2 beses sa isang</li>
+		<li class="li3">linggo wag magtaka na sa unang 30 minuto oh unang araw mo ay pabalik balik ka sa cr para </li>
+		<li class="li3">magbawas. Dahil nilalabas nito ang mga dumi na naipon sa iyong katawan.(ngunit wag matakot </li>
+		<li class="li3">kung subra na sa limang besses ka na pabalikbalik normal lang po yan wag lang po kalimutan</li>
+		<li class="li3">uminom ng maraming tubig.) malakas na pagpapaws kahit ikaw ay nakatutok sa aircondition</li>
+		<li class="li3">dahil pinapalabas din ng ugat ang mga naipong dumi sa iyong balat.(wag magtaka na </li>
+		<li class="li3">masyadong makati ang iyong pawis dahil normal po yan na makati dahil nga toxins po yan. </li>
+		<li class="li3">Importante po na inyo po itong punasan at pulbusan.) at dighay ng dighay plus utot ng utot(wag </li>
+		<li class="li3">kalimutan na importante sa walang tao po gagawin ito dahil po masyadong maingay at subra po </li>
+		<li class="li3">ang amoy po.) special cases po kung meron problema sa puso lalo na sa may problema na </li>
+		<li class="li3">barado ang ugat sa puso wag po magtaka na kabado oh malakas po ang tibok oh may kunting </li>
+		<li class="li3">oh malakas na sakit po dahil tinatangal lamang po ng gamot ang nagbabarado sa inyong ugat sa</li>
+		<li class="li3">puso.</li>
+		</ul>
+		<p class="mt">Mga bawal na uminom nito.</p>
+	<ul class="ul3">
+		<li class="li3">Bawal sa buntis</li>
+		<li class="li3">Bawal sa nagpapadede</li>
+		<li class="li3">bawal sa Lowblood</li>
+</div>
+<div class="sb">
+	<p class="k">Pano gamitin ang Alingatong Roots?</p>
+	<ul class="ul4">
+		<li class="li4">Step1:<br>
+        Sa isang kilong alingatong, ang gagamitin lamang ay 1/4 kilo sa bawat laga
+		</li>
+		<li class="li4">Step2:<br>
+        hugasan ito ng mabuti bago ilaga</li>
+		<li class="li4">
+			Step3:<br>
+        ilagay ang alingatong sa kasirolang may isang litrong tubig
+		</li>
+		<li class="li4">Step4:<br>
+        Ilaga ito ng 20-30 minutes</li>
+        <li class="li4">Step5:<br>
+        Inumin na ito (3x a day) before meal and bed time</li>
+        <br><br>
+		<li class="li4">Paalala: Sa isang kilo, 1/4 dito ang dapat ilaga. Pwede ito ilaga ng dalawang beses lamang</li>
+		<p class="k1">Pano gamitin ang Alingatong Tea?</p>
+	<ul class="ul4">
+		<li class="li5">Step1:<br>
+        Kumuha ng isang tasang tubig na mainit
+		</li>
+		<li class="li5">Step2:<br>
+        Maglagay ng isang tea bag na alingatong sa tasa at isawsaw ito sa tubig na nasa tasa</li>
+		<li class="li5">
+			Step3:<br>
+        takpan ito gamit ang mangkok or kahit anong pwedeng ipang takip sa loob ng 5-8 minutes
+		</li>
+		<li class="li5">Step4:<br>
+        Haluin ito at inumin (3x a day) before meal and bed time</li>
+        <br><br>
+		<li class="li5">Paalala: Sa isang tea bag na alingatong, dalawang beses ito pwedeng gamitin.</li>
+</div>
+<div class="footer">
+	<p class="kindly">Kindly visit our Facebook Page to Order</p>
+	<p class="fb">Facebook Page: Alingatong Herbal Roots / Tea | Seller: Maryrose Razon | Contact number: 0916-554-9427</p>
+</div>
+</body>
+</html>
